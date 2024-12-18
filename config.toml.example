@@ -1,0 +1,25 @@
+[ctp]
+
+# simnow
+
+trader_api_endpoint="tcp://180.168.146.187:10201"
+md_api_endpoint="tcp://180.168.146.187:10211"
+broker_id="9999"
+investor_id="xxx"
+password="xxx"
+app_id="simnow_client_test"
+auth_code="0000000000000000"
+
+# opentcp 7x24
+
+# trader_api_endpoint = "tcp://121.37.80.177:20002"
+# md_api_endpoint = "tcp://121.37.80.177:20004"
+# broker_id = "9999"
+# investor_id = "xxxxx"
+# password = "xxxxxx"
+# app_id = "test"
+# auth_code = "00000000000"
+
+[libs]
+ctp_thosttraderapi_path = "/workspaces/ctp-qry-order/dylib/ctp_v6.7.8/thosttraderapi_se.so"
+ctp_thostmduserapi_path = "/workspaces/ctp-qry-order/dylib/ctp_v6.7.8/thostmduserapi_se.so"

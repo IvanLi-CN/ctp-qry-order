@@ -1,0 +1,6 @@
+/target
+config.toml
+md_*
+td_*
+*.log
+/core
